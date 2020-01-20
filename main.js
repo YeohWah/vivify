@@ -41,7 +41,7 @@ button.click(function (e) {
     object.addClass(listValue).one(ANIM_END, function () {
         setTimeout(function () {
             object.removeClass(listValue);
-        }, 5000);
+        }, 500);
     });
 
 });
